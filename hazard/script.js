@@ -1,6 +1,6 @@
 function spin(){
 
-	fetch('http://localhost:3030/campaign/abc123')
+	fetch('http://localhost:3030/api/campaign/abc123')
   		.then(response => response.json())
   		.then(data => console.log(data));
 	var x = 1024; //min value
