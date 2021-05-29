@@ -1,6 +1,8 @@
 function spin(){
 
-
+	fetch('http://localhost:3030/campaign/abc123')
+  		.then(response => response.json())
+  		.then(data => console.log(data));
 	var x = 1024; //min value
 	var y = 9999; // max value
 
